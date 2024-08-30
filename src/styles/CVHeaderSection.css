@@ -1,0 +1,16 @@
+.cv-header-container {
+    background-color: rgb(226, 240, 250);
+    text-align: center;
+  }
+  
+  .subsection {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 0.5em;
+    color: #242424;
+  }
+  
+  .header-name {
+    padding: 0.5em 0;
+    color: #242424;
+  }

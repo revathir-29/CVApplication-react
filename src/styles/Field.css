@@ -1,0 +1,8 @@
+.section-input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+  }
+  .text-input {
+    margin-bottom: 1em;
+  }

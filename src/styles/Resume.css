@@ -1,0 +1,8 @@
+.cv-content {
+    padding: 2em;
+  }
+  
+  .cv-work-container,
+  .cv-education-container {
+    margin-bottom: 2em;
+  }

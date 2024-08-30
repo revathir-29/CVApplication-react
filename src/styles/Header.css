@@ -1,0 +1,12 @@
+#header-title {
+    text-align: center;
+    font-size: 3.2em;
+    line-height: 1.1;
+    padding: 0.3em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    grid-column: 1 / span 4;
+  }
+  
+  .header {
+    margin-bottom: 100px;
+  }
