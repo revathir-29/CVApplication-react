@@ -5,10 +5,9 @@ import Header from "./components/Header.jsx";
 import PersonalInformationForm from "./components/PersonalInformationForm.jsx";
 import Resume from "./components/Resume.jsx";
 import WorkExperienceForm from "./components/WorkExperienceForm.jsx";
-//import ProjectForm from "./components/ProjectForm.jsx";
 import { useState } from "react";
-import { IonIcon } from "@ionic/react";
-import { logoGithub } from "ionicons/icons";
+//import { IonIcon } from "@ionic/react";
+//import { logoGithub } from "ionicons/icons";
 
 export default function App() {
   const [personalInfo, setPersonalInfo] = useState({
