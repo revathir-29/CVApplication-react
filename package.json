@@ -1,9 +1,12 @@
 {
+  "homepage": "https://revathir-29/github.io/CVApplication-react",
   "name": "cvapp-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" :"npm run build",
+    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
@@ -12,6 +15,8 @@
   },
   "dependencies": {
     "@ionic/react": "^7.8.3",
+    "gh-pages": "^6.1.1",
+    "install": "^0.13.0",
     "ionicons": "^7.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
